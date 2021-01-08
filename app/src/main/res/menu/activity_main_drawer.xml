@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/usuario"
+            android:title="@string/menu_perfil" />
+
+        <item
+            android:id="@+id/nav_nuevaAcpm"
+            android:icon="@drawable/agregaracpm"
+            android:title="@string/menu_nuevaacpm" />
+        <item
+            android:id="@+id/nav_misAcpms"
+            android:icon="@drawable/listaacpm"
+            android:title="@string/menu_misacpms" />
+        <item
+            android:id="@+id/nav_listaAcpms"
+            android:icon="@drawable/miacpm"
+            android:title="@string/menu_listaacpms" />
+        <item
+            android:id="@+id/nav_registarusuario"
+            android:icon="@drawable/anadirusuario"
+            android:title="@string/menu_registrarusuario" />
+     <!--   <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Sign Out" /> -->
+    </group>
+</menu>

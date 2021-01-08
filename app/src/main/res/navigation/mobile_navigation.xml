@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_misAcpms">
+
+    <fragment
+        android:id="@+id/nav_perfil"
+        android:name="com.example.acpms.Perfil"
+        android:label="@string/menu_perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/nav_nuevaAcpm"
+        android:name="com.example.acpms.NuevaAcpm"
+        android:label="@string/menu_nuevaacpm"
+        tools:layout="@layout/fragment_nueva_acpm" />
+    <fragment
+        android:id="@+id/nav_misAcpms"
+        android:name="com.example.acpms.MisAcpms"
+        android:label="@string/menu_misacpms"
+        tools:layout="@layout/fragment_mis_acpms" />
+    <fragment
+        android:id="@+id/nav_listaAcpms"
+        android:name="com.example.acpms.ListaAcpms"
+        android:label="@string/menu_listaacpms"
+        tools:layout="@layout/fragment_lista_acpms" />
+    <fragment
+        android:id="@+id/nav_registarusuario"
+        android:name="com.example.acpms.Registarusuario"
+        android:label="@string/menu_registrarusuario"
+        tools:layout="@layout/fragment_registarusuario" />
+
+
+</navigation>

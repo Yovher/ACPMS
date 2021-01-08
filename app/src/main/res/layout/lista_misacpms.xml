@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+
+        android:id="@+id/Imagen_acpm"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher_background">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/estado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_toEndOf="@id/descripcion"
+        android:layout_toRightOf="@id/descripcion"
+        android:text="Nombre de la Persona"
+        android:textSize="18dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="estado"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/Imagen_acpm"
+        android:layout_toEndOf="@+id/Imagen_acpm"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"></TextView>
+
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">ACPMS</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_perfil">Perfil</string>
+    <string name="menu_nuevaacpm">Nueva Acpm</string>
+    <string name="menu_misacpms">Mis Acpms</string>
+    <string name="menu_listaacpms">Lista de Acpms</string>
+    <string name="menu_registrarusuario">Registrar Ususario</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="TxtBtnInicioSesion">INICIAR SESIÓN</string>
+    <string name="TituloRegistroUsuario">Nuevo Usuario</string>
+    <string name="txtname">Nombre Completo</string>
+    <string name="txtnumarea">Proceso o procesos a los que pertenece</string>
+    <string name="txttelefono">Celular</string>
+    <string name="TxtCorreo">Correo</string>
+    <string name="TxtContrasena">Contraseña</string>
+    <string name="txtConfirmacion">Confirmar Contraseña</string>
+    <string name="txtBtnRegistrarUsuario">Registrar</string>
+    <string name="txtBtnModificarUsuario">Actualizar</string>
+
+    <string-array name="tipoAcpms">
+        <item>Seleccione</item>
+        <item>Correctiva</item>
+        <item>Preventiva</item>
+        <item>Mejora</item>
+    </string-array>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "713149801486",
+    "firebase_url": "https://acpms-db512.firebaseio.com",
+    "project_id": "acpms-db512",
+    "storage_bucket": "acpms-db512.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713149801486:android:1ea78613888fadd909085f",
+        "android_client_info": {
+          "package_name": "com.example.acpms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713149801486-ghtjv3mabui0b96gnairm2ctu9nn90fr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQRT934jesBJIRyuFY5iLrOUoEgR9xUJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713149801486-ghtjv3mabui0b96gnairm2ctu9nn90fr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
